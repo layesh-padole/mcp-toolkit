@@ -1,0 +1,19 @@
+#virtual environments
+venv/
+.venv/
+env/
+
+#python cache
+__pycache__/
+*.pyc
+.Python
+
+#environment variables
+.env
+.env.local
+
+#dependecies
+node_modules/
+
+#claude
+.claude/
