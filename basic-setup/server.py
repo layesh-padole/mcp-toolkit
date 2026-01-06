@@ -19,6 +19,10 @@ def add(a: int, b: int) -> int:
     """Add two numbers"""
     return a + b
 
+@mcp.tool()
+def substract(a: int, b: int) -> int:
+    """Substract two numbers"""
+    return a - b
 
 # Run the server
 if __name__ == "__main__":
