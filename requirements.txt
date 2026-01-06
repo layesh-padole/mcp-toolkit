@@ -2,3 +2,4 @@ mcp[cli]
 python-dotenv
 ipykernel
 httpx
+google-genai
