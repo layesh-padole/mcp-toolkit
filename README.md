@@ -51,6 +51,15 @@ To run your MCP server in development mode with the inspector:
 
 ```bash
 mcp dev server.py
+
+# Run a server directly
+mcp run server.py
+
 ```
 
 This will start the MCP inspector, allowing you to test and debug your MCP server tools interactively in a browser interface.
+
+
+Kill a port 
+lsof -ti:8050 | xargs kill -9
+lsof -ti:6274 | xargs kill -9
